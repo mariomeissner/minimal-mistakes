@@ -2,6 +2,13 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+@media (min-width: 1700px) {
+  .page__content {
+	width: 850px;
+  }
+}
+   
+   
 #main {
   @include clearfix;
   margin-left: auto;
