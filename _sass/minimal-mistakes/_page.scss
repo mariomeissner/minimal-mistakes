@@ -4,11 +4,16 @@
 
 @media (min-width: 1700px) {
   .page__content {
-	width: 850px !important;
+    width: 850px !important;
   }
 }
-   
-   
+
+img + em {
+  display: block;
+  text-align: center;
+  text-emphasis-style: unset;
+}
+
 #main {
   @include clearfix;
   margin-left: auto;
@@ -537,5 +542,3 @@ Content added by Mario
 .sidebar__right {
   text-align: left;
 }
-
-
